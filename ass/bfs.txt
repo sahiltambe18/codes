@@ -1,0 +1,46 @@
+lass Solution {
+public :
+// Function to return Breadth Fi Traversal Of given graph.
+bfsOfGraph(int V, Odj O) {
+int vis[V] = {0}
+q. push(Ø) ;
+bfs;
+empty()) {
+int node q. front();
+q . pop() ;
+bfs. push(node) ;
+for(auto it : adj [node)) {
+return
+visCit]
+q. push(it);
+bfs ;
+
+
+public:
+// Function to return Breadth First Traversal of given graph
+vector<int> bfsOfGraph(int V, vector<int> adj[]) {
+int vis[n] = {0};
+vis[@] = 1;
+queue<int> 3
+q.push(0);
+vector<int> bfs;
+whileC!q.emptyQ) {
+int node = q.frontQ);
+4.popQ;
+bfs.push(node) ;
+
+ 
+
+for(auto it : adj[node]) {
+ifCivisLit]) {
+
+vistit] =
+
+q.pushCit);
+
+ 
+
++
++
+return bfs;
+

@@ -1,0 +1,2 @@
+str = 'cdwwdcdscwdc'
+print(str)

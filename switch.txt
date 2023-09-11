@@ -1,0 +1,22 @@
+while (ch!=0){
+           System.out.println("enter your choice ");
+           System.out.println("1. deposit money \n2. Withdraw \n3. check balance \n4. Display Account info. \n0 for exit");
+           ch = sc.nextInt();
+           switch (ch){
+               case 1:{
+                   b.deposit();
+                   break;
+               }
+               case 2:{
+                   b.withdraw();
+                   break;
+               }
+               case 3:{
+                   b.check();
+                   break;
+               }
+               case 4:{
+                   b.status();
+               }
+           }
+       }
